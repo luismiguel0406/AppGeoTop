@@ -1,0 +1,158 @@
+/*root div static*/
+#root {  
+  z-index: 1;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-content{
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+ header{
+  position: inherit;
+ }
+ 
+.navbar{
+  width: 100%;
+  background-color: rgb(30, 59, 58,0.8);
+}
+.logo{
+  border-radius: 5px;
+  width: 40%;
+}
+
+.bg-home {    
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+
+.second-container{
+
+  background-color: rgb(30, 59, 58,0.8);
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  left: 60%;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 300ms;
+}
+.second-container p {
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+/*Mapa container*/
+.map-container{
+  width: 100%;
+  height: 100%;
+  position:relative;
+  
+}
+
+.leaflet-container{
+ 
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.search-box-container{
+  position: absolute;
+  align-items: center;
+  top:0;
+  left:2.5%;
+  width:30%;
+  z-index: 3;
+}
+.search-input{
+  z-index: 4;
+}
+.search-input input{
+  width: 55% !important;
+  box-shadow: none !important;
+}
+.search-input select{
+  width: 30% !important;
+  box-shadow: none !important;
+}
+
+.result-card{
+  background-color: rgb(209, 231, 221,0.9);
+  position: absolute;
+  z-index: 3;
+  top: 10%;
+  left: 3%;
+  bottom: 10%;
+  width: 30%;
+  border-radius: 10px;
+  overflow: auto;
+}
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed){
+  color:white !important;
+  background-color:rgb(25, 135, 84)!important ;
+}
+
+.loader{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background-color:green;
+  opacity:0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-group{
+   align-items: start !important;
+}
+.list-group-item{
+  align-items: start ;
+  width: 100%;
+}
+
+.list-result-container{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.list-group-item:hover{
+  color:white !important;
+  background-color:rgb(25, 135, 84)!important ;
+  transition: 350ms;
+}
+
+.list-item-result{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.load-more{
+  color:rgb(25, 135, 84)!important ;
+}
+@media screen and (max-width: 500px) {
+  body{
+    font-size : 12px;
+  }
+}

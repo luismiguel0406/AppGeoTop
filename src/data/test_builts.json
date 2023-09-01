@@ -1,0 +1,193 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -66.0635581412537,
+                  -11.00508604297486
+                ],
+                [
+                  -66.06344306314628,
+                  -11.005078315018551
+                ],
+                [
+                  -66.06341431732814,
+                  -11.005141537039759
+                ],
+                [
+                  -66.06353736318266,
+                  -11.005155956697244
+                ],
+                [
+                  -66.0635581412537,
+                  -11.00508604297486
+                ]
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "id": 47,
+          "aire": true,
+          "anyo": "1980",
+          "ascensores": true,
+          "banyos": 1,
+          "calefaccion": true,
+          "cod": 1,
+          "dormitorios": 2,
+          "escalera": false,
+          "geom": {
+            "type": "MultiPolygon",
+            "coordinates": [
+              [
+                [
+                  [
+                    820913.8389960343,
+                    8781887.342311459
+                  ],
+                  [
+                    820926.4341585035,
+                    8781888.074588345
+                  ],
+                  [
+                    820929.509721432,
+                    8781881.044730224
+                  ],
+                  [
+                    820916.0358266976,
+                    8781879.580176448
+                  ],
+                  [
+                    820913.8389960343,
+                    8781887.342311459
+                  ]
+                ]
+              ]
+            ]
+          },
+          "lavanderia": true,
+          "plantas": 2,
+          "sanitarios": false,
+          "servicio": false,
+          "superficie": 99.298965,
+          "tanque": false,
+          "conservacionBean": {
+            "id": 3,
+            "estado": "Bueno",
+            "valor": null
+          },
+          "revestimientoBean": {
+            "id": 3,
+            "revestimiento": "Loseta"
+          },
+          "terrenos19": {
+            "codigo": "324324",
+            "agua": false,
+            "alcantarillado": false,
+            "barrio": "",
+            "base": "",
+            "direccion": "",
+            "energia": true,
+            "este": " ",
+            "fondo": "",
+            "frente": "",
+            "geom": {
+              "type": "MultiPolygon",
+              "coordinates": [
+                [
+                  null
+                ]
+              ]
+            },
+            "internet": true,
+            "manzano": "",
+            "norte": " ",
+            "oeste": " ",
+            "predio": "",
+            "subpredio": "",
+            "superficie": 877.2925,
+            "suptest": "",
+            "sur": " ",
+            "telefono": true,
+            "transporte": true,
+            "formaBean": {
+              "id": 0,
+              "codigo": "",
+              "forma": "",
+              "valor": null
+            },
+            "materialViaBean": {
+              "id": 0,
+              "material": "",
+              "valor": 0
+            },
+            "tipoVia": {
+              "id": 3,
+              "tipo": "Calle Principal",
+              "valor": 1
+            },
+            "titularBean": {
+              "id": 1,
+              "apellidos": "Calas",
+              "documento": "44870181",
+              "nombre": "Pedro",
+              "adquisicionBean": {
+                "id": 1,
+                "adquisicion": "Compra",
+                "codigo": "COM"
+              },
+              "caracterTitular": {
+                "id": 2,
+                "caracter": "Poseedor",
+                "codigo": "POS"
+              },
+              "documentoPropiedad": {
+                "id": 3,
+                "codigo": "MT",
+                "documento": "Minuta de Transferencia"
+              },
+              "tipoDocumento": {
+                "id": 1,
+                "codigo": "C.I",
+                "tipo": "Cédula de Identidad"
+              }
+            },
+            "topografiaBean": {
+              "id": 0,
+              "descripcion": "",
+              "nombre": "",
+              "valor": null
+            },
+            "ubicacionBean": {
+              "id": 0,
+              "codigo": "",
+              "ubicacion": "",
+              "valor": 1
+            },
+            "zonaBean": {
+              "id": 5,
+              "valorCatastral": 475,
+              "valorComercial": 1189
+            }
+          },
+          "tipoConstruccion": {
+            "id": 2,
+            "tipo": "Interés Social",
+            "valor": 396
+          },
+          "usoBean": {
+            "id": 2,
+            "uso": "Oficinas",
+            "valor": 1
+          }
+        },
+        "id": 47
+      }
+    ]
+  } 

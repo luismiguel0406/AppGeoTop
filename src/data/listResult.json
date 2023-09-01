@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "codigo": "40211.4.10.3",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 1 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "2",
+    "codigo": "40211.4.10.4",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 2 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "3",
+    "codigo": "40211.4.10.5",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 3 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "4",
+    "codigo": "40211.4.10.6",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 4 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "5",
+    "codigo": "40211.4.10.7",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 5 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "6",
+    "codigo": "40211.4.10.8",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 6 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "7",
+    "codigo": "40211.4.10.8",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 7 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "8",
+    "codigo": "40211.4.10.9",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 8 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "9",
+    "codigo": "40211.4.10.10",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 9 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  },
+  {
+    "id": "10",
+    "codigo": "40211.4.10.10",
+    "nombre": "RODOLFO",
+    "direccion": "Calle 10 Kilometro 10",
+    "apellidos": "DELGADO ORTIZ"
+  }
+]

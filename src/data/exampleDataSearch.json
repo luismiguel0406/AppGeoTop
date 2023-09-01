@@ -1,0 +1,97 @@
+{
+  "error": false,
+  "found": true,
+  "message": "",
+  "data": {
+    "terrenos": [
+      {
+        "properties": {
+          "id": 10624,
+          "codigo": "40211.4.10.3",
+          "agua": null,
+          "alcantarillado": null,
+          "barrio": null,
+          "base": null,
+          "direccion": "CALLE KILOMETRO 7",
+          "energia": null,
+          "este": null,
+          "fondo": null,
+          "frente": null,
+          "internet": null,
+          "manzano": "10",
+          "norte": null,
+          "oeste": null,
+          "predio": "3",
+          "subpredio": null,
+          "superficie": 257.01382,
+          "suptest": 0,
+          "sur": null,
+          "telefono": null,
+          "transporte": null,
+          "nombre": "RODOLFO",
+          "apellidos": "DELGADO ORTIZ",
+          "documento": 2369077,
+          "adquisicion": "Compra",
+          "codigoadquisicion": "COM",
+          "forma": null,
+          "valor": null,
+          "codigoforma": null,
+          "material": null,
+          "tipo": null,
+          "valortipovia": null
+        },
+        "type": "Feature",
+        "geometry": {
+          "crs": { "type": "name", "properties": { "name": "EPSG:32719" } },
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [734454.385, 7909477.235],
+                [734444.466, 7909478.015],
+                [734445.834, 7909498.956],
+                [734446.2270000001, 7909503.504],
+                [734456.294, 7909502.653],
+                [734455.973, 7909498.215],
+                [734454.385, 7909477.235]
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "construcciones": [
+      {
+        "properties": {
+          "id": 47,
+          "aire": true,
+          "anyo": "1980",
+          "ascensores": true,
+          "banyos": 1,
+          "calefaccion": true,
+          "cod": 1,
+          "dormitorios": 2,
+          "escalera": false
+        },
+        "type": "Feature",
+        "geometry": {
+          "crs": { "type": "name", "properties": { "name": "EPSG:32719" } },
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [734454.385, 7909477.235],
+                [734444.466, 7909478.015],
+                [734445.834, 7909498.956],
+                [734446.2270000001, 7909503.504],
+                [734456.294, 7909502.653],
+                [734455.973, 7909498.215],
+                [734454.385, 7909477.235]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}
