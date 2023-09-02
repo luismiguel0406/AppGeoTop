@@ -41,7 +41,7 @@ const InfoAccordion = ({dataToShow}) => {
     valortipovia,
     alcantarillado,
   } = lands;
-console.log(nombre)
+
   const {
     aire,
     anyo,

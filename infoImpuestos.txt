@@ -1,0 +1,44 @@
+agua 
+luz 
+alcantarillado 
+telefono 
+coeficientes cada uno 0.1
+
+coeficiente equipos = 1 - 0.1 por cada uno de los servicios arriba en true
+ejemplo si tiene agua y luz, seria 1 -0.1 -0.1 = 0.8
+
+
+valor uso =28
+valor construccion unidad = valorUso(api) x valorConservacion(api) x valorTipoConstruccion(api)
+
+avaluoConstruccion = superficie(api) * valorConstruccionUnidad(api);
+=================================================================================
+
+
+agua 
+luz 
+alcantarillado 
+telefono 
+internet 
+transporte  
+coeficientes cada uno 0.1
+
+valorCatastral(api)
+valorForma(api)
+valorMaterialVia(Api)
+valorTipoVia(api)
+valorTopografia(api)
+valorUbicacion(api)
+
+valorUnitarioZonasHomogeneas = valorCatastral * valorForma * valorMaterialVia * valorTipoVia * valorTopografia * valorUbicacion
+avaluoTerreno = superficie(api) * valorUnitarioZonasHomogeneas * coeficientes
+===================================================================================
+
+avaluoCatastral = avaluoterreno + avaluoConstrucciones(si hay varias)
+
+
+baseImponible = avaluoCatastral
+
+
+ImpuestoDeterminado = (avaluoCatastral - sobreExcedente(tabla)) * porcentaje(tabla) + cuotaFija(tabla)
+ImporteTotal = impuestoDeterminado * 0.9
