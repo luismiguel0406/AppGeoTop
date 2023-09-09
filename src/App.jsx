@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import "./App.css";
+import Taxes from "./pages/Taxes";
 
 function App() {
  const styleToaster = { success:{
@@ -35,6 +36,7 @@ error:{
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="map" element={<MapView />} />
+          <Route path="taxes" element={<Taxes/>}/>
         </Routes>
         <Toaster position="bottom-right" reverseOrder={false} toastOptions={styleToaster} />
       </BrowserRouter>

@@ -151,6 +151,60 @@
 .load-more{
   color:rgb(25, 135, 84)!important ;
 }
+
+.taxes-container {
+  border: 1px solid #1d3b3b;
+  font-size: 0.8rem;
+}
+.row{
+  border: 1px solid #1d3b3b;
+  text-align: center;
+}
+/*
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tinos", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header {
+  background-color: #1d3b3b;
+  color: white;
+}
+section .row .col{
+  border: 1px solid #1d3b3b;
+  text-align: center;
+}
+
+section .row{
+  font-size: 0.6rem;
+}
+
+section .row .fontImport {
+  font-size: 0.8rem;
+}
+
+
+#colButton{
+  border-style: none;
+}
+
+#colButton button{
+  background-color:#1d3b3b !important;
+}
+
+
+
+
+
+
+*/
+
+
+
+
 @media screen and (max-width: 500px) {
   body{
     font-size : 12px;
