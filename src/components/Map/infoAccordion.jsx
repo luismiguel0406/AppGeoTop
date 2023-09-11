@@ -73,7 +73,7 @@ const InfoAccordion = ({dataToShow}) => {
       <AccordionHeader targetId="1">Ubicación</AccordionHeader>
       <AccordionBody accordionId="1">
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">Propietario:{nombre} {apellidos}</li>
+          <li className="list-group-item">Propietario: {nombre} {apellidos}</li>
           <li className="list-group-item">Adquisición: {adquisicion}</li>
           <li className="list-group-item">Agua: {agua}</li>
           <li className="list-group-item">Alcantarillado: {alcantarillado}</li>

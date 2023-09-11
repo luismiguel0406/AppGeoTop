@@ -12,9 +12,14 @@ const SearchInput = ({ handleOnChangeInput, searchData }) => {
           value={searchData?.value}
           onChange={handleOnChangeInput}
         />
-        <button className="btn btn-danger search-button" type="button">
-          <i className="fa-solid fa-close" style={{ color: "#fafafa" }}></i>
-        </button>
+        { searchData?.value.length > 0 &&
+           <button 
+           className="btn btn-danger search-close-button animate__animated animate__bounceIn" 
+           type="button">
+             <i className="fa-solid fa-close" style={{ color: "#fafafa" }}></i>
+           </button>
+        }
+      
         <select
           className="form-select"
           name="type"

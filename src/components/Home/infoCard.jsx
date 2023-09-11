@@ -29,7 +29,7 @@ export const InfoCard = () => {
               Contraseña
             </label>
             <input
-              type="text"
+              type="password"
               id="password"
               className="form-control"
               placeholder="Contraseña"

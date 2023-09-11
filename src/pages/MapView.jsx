@@ -11,8 +11,9 @@ import { usePolygons } from "../hooks/usePolygons";
 import SearchInput from "../components/Map/searchInput";
 
 export const MapView = () => {
-  const [searchData, setSearchData] = useState({ type: "1", value: "" });
   const CHALLAPATA_CENTER = [-18.9023072, -66.7683362];
+  const [searchData, setSearchData] = useState({ type: "1", value: "" });
+  const [currentPolygon, setCurrentPolygon]= useState(CHALLAPATA_CENTER)
   const { landLayer, builtLayer, polygons} = usePolygons(searchData);
 
   const handleOnChangeInput = (e) => {
@@ -22,11 +23,13 @@ export const MapView = () => {
     }));
   };
 
+  
+
   return (
     <>
       <div className="map-container">
         <SearchInput handleOnChangeInput={handleOnChangeInput} searchData={searchData}/>
-         <InfoPolygons polygons={polygons}/>
+         <InfoPolygons polygons={polygons} setCurrentPolygon={setCurrentPolygon}/>
           <MapContainer center={CHALLAPATA_CENTER} zoom={16}>
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -43,7 +46,7 @@ export const MapView = () => {
               <GeoJsonLayer feature={builtLayer} color="blue"/>
               <GeoJsonLayer feature={landLayer} color="red"/>
             </FeatureGroup>
-            <LocationMarker />
+            <LocationMarker currentPolygon={currentPolygon} />
             <MiniMap />
           </MapContainer>
       </div>

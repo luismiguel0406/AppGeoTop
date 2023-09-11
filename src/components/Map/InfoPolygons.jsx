@@ -52,22 +52,26 @@ const initialDataToShow = {
     estadoConservacion: "",
   },
 };
-const InfoPolygons = ({ polygons = {} }) => {
+const InfoPolygons = ({ polygons = {}, setCurrentPolygon }) => {
   const [dataToShow, setDataToShow] = useState(initialDataToShow);
   const [isSearching, setIsSearching] = useState(false);
 
   const { lands, builts } = polygons;
 
   const handleDataToShow = (id) => {
-    //recibir id de la construccion tambien o luego buscarlo teniendo ya el terreno
+    //Recibo Id de terreno para mostrar su información.
+ 
     let landsFiltered = lands?.features.filter(
       ({properties}) => properties.id === id
     );
     let builtsFiltered = builts?.features.filter(
       ({properties}) => properties.id === id
     );
-    //Temporal Solution
+    //Temporal Solution: [0] a lo que esta filtrado, porque trae valores repetidos.
     setDataToShow({ lands: landsFiltered[0]?.properties, builts: builtsFiltered[0]?.properties });
+    let lat = landsFiltered[0]?.geometry.coordinates[0][0][0][1];
+    let lon = landsFiltered[0]?.geometry.coordinates[0][0][0][0];
+    setCurrentPolygon([lat,lon]);
   };
  
   useEffect(()=>{

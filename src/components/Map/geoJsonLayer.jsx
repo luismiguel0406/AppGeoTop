@@ -9,6 +9,7 @@ const GeoJsonLayer = ({ feature, color }) => {
       weight: 1.5,
       color,
       opacity: 1.0,
+      fillColor:'transparent'
     },
   })
     .bindPopup(
