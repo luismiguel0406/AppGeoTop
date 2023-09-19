@@ -2,7 +2,7 @@ const SearchResult = ({ listResults = {}, handleDataToShow }) => {
   const { features } = listResults;
   return (
     <div className="list-result-container">
-      {features.length === 0 ? (
+      {!features  ? (
         <div className="d-flex align-items-center justify-content-center w-100 h-100">
           <span className="display-6">Sin contenido para mostrar!</span>
         </div>

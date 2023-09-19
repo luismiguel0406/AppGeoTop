@@ -74,6 +74,7 @@ const InfoPolygons = ({ polygons = {}, setCurrentPolygon }) => {
     setCurrentPolygon([lat,lon]);
   };
  
+
   useEffect(()=>{
     setIsSearching(false);
   },[dataToShow])
@@ -88,7 +89,7 @@ const InfoPolygons = ({ polygons = {}, setCurrentPolygon }) => {
   return (
     <div className="result-card m-2 p-2 animate__animated animate__slideInDown">
       {isSearching ? (
-        <SearchResult listResults={lands} handleDataToShow={handleDataToShow} />
+        <SearchResult listResults={lands} handleDataToShow={handleDataToShow}/>
       ) : (
         <InfoAccordion dataToShow={dataToShow} />
       )}

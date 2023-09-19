@@ -1,6 +1,6 @@
 import searchOptions from "../../data/searchOptions.json";
 
-const SearchInput = ({ handleOnChangeInput, searchData }) => {
+const SearchInput = ({ handleOnChangeInput, searchData, handleClose }) => {
   return (
     <div className="search-box-container">
       <div className="input-group search-input m-2 p-2">
@@ -15,7 +15,8 @@ const SearchInput = ({ handleOnChangeInput, searchData }) => {
         { searchData?.value.length > 0 &&
            <button 
            className="btn btn-danger search-close-button animate__animated animate__bounceIn" 
-           type="button">
+           type="button"
+           onClick={handleClose}>
              <i className="fa-solid fa-close" style={{ color: "#fafafa" }}></i>
            </button>
         }

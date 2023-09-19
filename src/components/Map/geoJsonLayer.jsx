@@ -17,10 +17,10 @@ const GeoJsonLayer = ({ feature, color }) => {
                         <p><strong> Codigo catastral:</strong> ${layer.feature.properties?.codigo}       </p> 
                         <p>
                             <strong> Propietario: </strong>
-                            ${layer.feature.properties?.titularBean?.nombre ?? "" }
-                            ${layer.feature.properties?.titularBean?.apellidos ?? ""}  
+                            ${layer.feature.properties?.nombre ?? "" }
+                            ${layer.feature.properties?.apellidos ?? ""}  
                         </p>
-                        <p> <strong> Superficie: </strong> ${layer.feature.properties.superficie ?? 0} M2 </p>
+                        <p> <strong> Superficie: </strong> ${layer.feature.properties.superficie ?? 0} m² </p>
                   </div>`
     )
     .addTo(map);
