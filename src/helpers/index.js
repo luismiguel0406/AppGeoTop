@@ -40,20 +40,6 @@ export const convertUTMToLatLon = (coords) => {
 };
 
 
-function flyToNombre(){
-  let nombre =  nomsearch.value;
-
-  let featureNombre = featuresJson.filter(feature => {
-    return feature.properties.nombre == nombre;
-  });
-  let lat = featureNombre[0].geometry.coordinates[0][0][0][1];
-  let lon = featureNombre[0].geometry.coordinates[0][0][0][0];
-
-  map.flyTo([lat,lon], 17);
-
-}
-
-
 
  
 
